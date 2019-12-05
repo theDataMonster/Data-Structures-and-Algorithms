@@ -1,0 +1,30 @@
+package com.searching.algorithms;
+
+public class KthSmallestQuickSelect {
+	
+	public static int partition(Integer arr[],int l,int r)
+	{
+		int x=arr[r],i=l-1;
+		for(int j=l;j<=r-1;j++)
+		{
+			if(arr[j]<=x)
+			{
+				int t=arr[i];
+				arr[i]=arr[j];
+				arr[j]=t;
+				
+				i++;
+			}
+		}
+		int temp=arr[i+1];
+		arr[i+1]=arr[r];
+		arr[r]=temp;
+		
+	}
+	
+	public static int kthSmallest(Integer arr[], int l, int r, int k)
+	{
+		
+	}
+
+}

@@ -1,0 +1,10 @@
+package com.dynamicProgramming.example;
+
+public class RodCutting {
+	
+	static int rodCut(int price[],int n)
+	{
+		
+	}
+
+}

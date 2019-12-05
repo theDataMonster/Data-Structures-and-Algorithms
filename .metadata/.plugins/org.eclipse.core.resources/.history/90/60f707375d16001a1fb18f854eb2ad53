@@ -1,0 +1,17 @@
+package com;
+
+public class QuickSort {
+	
+	int partition(int arr[],int low,int high)
+	{
+		
+	}
+	void sort(int arr[],int low,int high)
+	{
+		if(low<high)
+		{
+			int pi=partition(arr,low,high);
+		}
+	}
+
+}

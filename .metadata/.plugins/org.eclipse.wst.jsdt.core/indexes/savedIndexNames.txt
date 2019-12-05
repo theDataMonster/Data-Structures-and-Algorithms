@@ -1,0 +1,4 @@
+INDEX VERSION 1.4+C:\Users\pratyushd\DSAlgoWS\.metadata\.plugins\org.eclipse.wst.jsdt.core\indexes
+3086198347.index
+2228597084.index
+1942895373.index

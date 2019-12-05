@@ -1,0 +1,21 @@
+package com.dynamicProgramming.example;
+
+public class LongestCommonSubsequence {
+	
+	public static void main(String[] args) {
+		
+	}
+	
+	int lcs(char[] x, char[] y, int m, int n)
+	{
+		if(m==0 || n==0)
+		{
+			return 0;
+		}
+		if(x[m-1]==y[n-1])
+		{
+			
+		}
+	}
+
+}

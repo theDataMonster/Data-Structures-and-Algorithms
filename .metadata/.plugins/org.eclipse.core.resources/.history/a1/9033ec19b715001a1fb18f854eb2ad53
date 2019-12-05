@@ -1,0 +1,17 @@
+package com;
+
+public class ParallelSort {
+	
+	private static final int BASE_ARRAY_SIZE=10000;
+	
+	public static double[] generateArray(int size)
+	{
+		if(size<0 || size> Integer.MAX_VALUE)
+		{
+			return null;
+		}
+		
+		double[] result=new double[size];
+	}
+
+}

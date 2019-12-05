@@ -1,0 +1,33 @@
+package com;
+
+public class RecursiveInsertionSort {
+	
+	public static void main(String[] args) {
+		
+		int arr[]={1,5,3,100,10,9,2,26,20,12};
+		
+		sort(arr);
+		
+	}
+	
+	static void sort(int arr[])
+	{
+		if(arr.length==1)
+		{
+			return;
+		}
+		else if(arr.length==2)
+		{
+			int t=0;
+			if(arr[0]>arr[1])
+			{
+				t=arr[0];
+				arr[0]=arr[1];
+				arr[1]=t;
+			}
+		}
+		
+		
+	}
+
+}

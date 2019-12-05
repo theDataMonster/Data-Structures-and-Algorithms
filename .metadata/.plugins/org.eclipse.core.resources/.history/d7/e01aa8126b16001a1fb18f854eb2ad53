@@ -1,0 +1,5 @@
+package com.searching.algorithms;
+
+public class KthSmallestQuickSelect {
+
+}

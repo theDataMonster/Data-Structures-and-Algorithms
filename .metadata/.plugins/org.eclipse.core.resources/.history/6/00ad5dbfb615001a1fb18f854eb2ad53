@@ -1,0 +1,7 @@
+package com;
+
+public class ParallelSort {
+	
+	private static final int BASE_ARRAY_SIZE=10000;
+
+}

@@ -1,0 +1,17 @@
+package com.dynamicProgramming.example;
+
+public class RodCuttingDP {
+	
+	static int rodCut(int price[],int n)
+	{
+		int val[]=new int[n+1];
+		val[0]=0;
+		
+		for(int i=1;i<=n;i++)
+		{
+			
+		}
+		
+	}
+
+}

@@ -1,0 +1,12 @@
+package com;
+
+public class ParallelSort {
+	
+	private static final int BASE_ARRAY_SIZE=10000;
+	
+	public static double[] generateArray(int size)
+	{
+		
+	}
+
+}

@@ -1,0 +1,14 @@
+package com.dynamicProgramming.example;
+
+public class LongestCommonSubsequence {
+	
+	public static void main(String[] args) {
+		
+	}
+	
+	int lcs(char[] x, char[] y, int m, int n)
+	{
+		
+	}
+
+}
