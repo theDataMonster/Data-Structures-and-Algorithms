@@ -174,3 +174,96 @@
 2019-12-04 17:32:24,223 [Worker-451: Launching LongestCommonSubsequenceDP] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\pratyushd\DSAlgoWS\DynamicProgramming\src\main\resources
 2019-12-04 17:32:24,227 [Worker-451: Launching LongestCommonSubsequenceDP] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
 2019-12-04 17:32:24,232 [Worker-451: Launching LongestCommonSubsequenceDP] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\pratyushd\DSAlgoWS\DynamicProgramming\src\test\resources
+2019-12-16 10:44:09,716 [Worker-2: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2019-12-16 10:45:01,178 [ModalContext] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com:Arrays.tests:0.1.0-SNAPSHOT @ C:\Users\pratyushd\DSAlgoWS\Arrays\pom.xml.
+2019-12-16 10:45:02,623 [ModalContext] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /Arrays/src/main/java
+2019-12-16 10:45:02,632 [ModalContext] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /Arrays/src/test/java
+2019-12-16 10:45:06,967 [ForkJoinPool.commonPool-worker-6] ERROR o.e.j.i.storage.file.LockFile - Creating lock file C:\Program Files\Java\jdk1.8.0_191\bin\.gitconfig.lock failed
+java.io.IOException: Access is denied
+	at java.io.WinNTFileSystem.createFileExclusively(Native Method) ~[na:1.8.0_191]
+	at java.io.File.createNewFile(Unknown Source) ~[na:1.8.0_191]
+	at org.eclipse.jgit.util.FS.createNewFileAtomic(FS.java:1593) ~[org.eclipse.jgit_5.5.1.201910021850-r.jar:5.5.1.201910021850-r]
+	at org.eclipse.jgit.internal.storage.file.LockFile.lock(LockFile.java:165) ~[org.eclipse.jgit_5.5.1.201910021850-r.jar:5.5.1.201910021850-r]
+	at org.eclipse.jgit.storage.file.FileBasedConfig.save(FileBasedConfig.java:252) [org.eclipse.jgit_5.5.1.201910021850-r.jar:5.5.1.201910021850-r]
+	at org.eclipse.jgit.util.FS$FileStoreAttributes.saveToConfig(FS.java:584) [org.eclipse.jgit_5.5.1.201910021850-r.jar:5.5.1.201910021850-r]
+	at org.eclipse.jgit.util.FS$FileStoreAttributes.lambda$0(FS.java:364) [org.eclipse.jgit_5.5.1.201910021850-r.jar:5.5.1.201910021850-r]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(Unknown Source) ~[na:1.8.0_191]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.exec(Unknown Source) ~[na:1.8.0_191]
+	at java.util.concurrent.ForkJoinTask.doExec(Unknown Source) ~[na:1.8.0_191]
+	at java.util.concurrent.ForkJoinPool$WorkQueue.runTask(Unknown Source) ~[na:1.8.0_191]
+	at java.util.concurrent.ForkJoinPool.runWorker(Unknown Source) ~[na:1.8.0_191]
+	at java.util.concurrent.ForkJoinWorkerThread.run(Unknown Source) ~[na:1.8.0_191]
+2019-12-16 10:45:06,975 [ForkJoinPool.commonPool-worker-6] ERROR org.eclipse.jgit.util.FS - Cannot save config file 'FileBasedConfig[C:\Program Files\Java\jdk1.8.0_191\bin\.gitconfig]'
+java.io.IOException: Access is denied
+	at java.io.WinNTFileSystem.createFileExclusively(Native Method) ~[na:1.8.0_191]
+	at java.io.File.createNewFile(Unknown Source) ~[na:1.8.0_191]
+	at org.eclipse.jgit.util.FS.createNewFileAtomic(FS.java:1593) ~[org.eclipse.jgit_5.5.1.201910021850-r.jar:5.5.1.201910021850-r]
+	at org.eclipse.jgit.internal.storage.file.LockFile.lock(LockFile.java:165) ~[org.eclipse.jgit_5.5.1.201910021850-r.jar:5.5.1.201910021850-r]
+	at org.eclipse.jgit.storage.file.FileBasedConfig.save(FileBasedConfig.java:252) ~[org.eclipse.jgit_5.5.1.201910021850-r.jar:5.5.1.201910021850-r]
+	at org.eclipse.jgit.util.FS$FileStoreAttributes.saveToConfig(FS.java:584) [org.eclipse.jgit_5.5.1.201910021850-r.jar:5.5.1.201910021850-r]
+	at org.eclipse.jgit.util.FS$FileStoreAttributes.lambda$0(FS.java:364) [org.eclipse.jgit_5.5.1.201910021850-r.jar:5.5.1.201910021850-r]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(Unknown Source) ~[na:1.8.0_191]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.exec(Unknown Source) ~[na:1.8.0_191]
+	at java.util.concurrent.ForkJoinTask.doExec(Unknown Source) ~[na:1.8.0_191]
+	at java.util.concurrent.ForkJoinPool$WorkQueue.runTask(Unknown Source) ~[na:1.8.0_191]
+	at java.util.concurrent.ForkJoinPool.runWorker(Unknown Source) ~[na:1.8.0_191]
+	at java.util.concurrent.ForkJoinWorkerThread.run(Unknown Source) ~[na:1.8.0_191]
+2019-12-16 13:00:51,532 [Worker-62: Launching ArrayRotation] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com:Arrays.tests:0.1.0-SNAPSHOT @ C:\Users\pratyushd\DSAlgoWS\Arrays\pom.xml.
+2019-12-16 13:00:53,048 [Worker-62: Launching ArrayRotation] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-12-16 13:00:53,048 [Worker-62: Launching ArrayRotation] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\pratyushd\DSAlgoWS\Arrays\src\main\resources
+2019-12-16 13:00:53,049 [Worker-62: Launching ArrayRotation] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-12-16 13:00:53,049 [Worker-62: Launching ArrayRotation] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\pratyushd\DSAlgoWS\Arrays\src\test\resources
+2019-12-16 13:06:05,063 [Worker-73: Launching ArrayRotation] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-12-16 13:06:05,063 [Worker-73: Launching ArrayRotation] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\pratyushd\DSAlgoWS\Arrays\src\main\resources
+2019-12-16 13:06:05,063 [Worker-73: Launching ArrayRotation] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-12-16 13:06:05,063 [Worker-73: Launching ArrayRotation] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\pratyushd\DSAlgoWS\Arrays\src\test\resources
+2019-12-16 13:08:17,229 [Worker-61: Launching ArrayRotation] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-12-16 13:08:17,229 [Worker-61: Launching ArrayRotation] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\pratyushd\DSAlgoWS\Arrays\src\main\resources
+2019-12-16 13:08:17,230 [Worker-61: Launching ArrayRotation] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-12-16 13:08:17,230 [Worker-61: Launching ArrayRotation] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\pratyushd\DSAlgoWS\Arrays\src\test\resources
+2019-12-16 13:18:43,367 [Worker-83: Launching ArrayRotation] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-12-16 13:18:43,367 [Worker-83: Launching ArrayRotation] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\pratyushd\DSAlgoWS\Arrays\src\main\resources
+2019-12-16 13:18:43,368 [Worker-83: Launching ArrayRotation] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-12-16 13:18:43,368 [Worker-83: Launching ArrayRotation] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\pratyushd\DSAlgoWS\Arrays\src\test\resources
+2019-12-16 13:19:43,671 [Worker-76: Launching ArrayRotation] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-12-16 13:19:43,671 [Worker-76: Launching ArrayRotation] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\pratyushd\DSAlgoWS\Arrays\src\main\resources
+2019-12-16 13:19:43,672 [Worker-76: Launching ArrayRotation] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-12-16 13:19:43,672 [Worker-76: Launching ArrayRotation] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\pratyushd\DSAlgoWS\Arrays\src\test\resources
+2019-12-16 13:37:23,745 [Worker-88: Launching ArrayRotation] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-12-16 13:37:23,746 [Worker-88: Launching ArrayRotation] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\pratyushd\DSAlgoWS\Arrays\src\main\resources
+2019-12-16 13:37:23,746 [Worker-88: Launching ArrayRotation] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-12-16 13:37:23,747 [Worker-88: Launching ArrayRotation] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\pratyushd\DSAlgoWS\Arrays\src\test\resources
+2019-12-16 13:37:59,354 [Worker-83: Launching ArrayRotation] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-12-16 13:37:59,355 [Worker-83: Launching ArrayRotation] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\pratyushd\DSAlgoWS\Arrays\src\main\resources
+2019-12-16 13:37:59,356 [Worker-83: Launching ArrayRotation] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-12-16 13:37:59,356 [Worker-83: Launching ArrayRotation] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\pratyushd\DSAlgoWS\Arrays\src\test\resources
+2019-12-16 13:38:31,967 [Worker-88: Launching ArrayRotation] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-12-16 13:38:31,967 [Worker-88: Launching ArrayRotation] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\pratyushd\DSAlgoWS\Arrays\src\main\resources
+2019-12-16 13:38:31,968 [Worker-88: Launching ArrayRotation] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-12-16 13:38:31,968 [Worker-88: Launching ArrayRotation] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\pratyushd\DSAlgoWS\Arrays\src\test\resources
+2019-12-16 14:27:30,506 [Worker-104: Launching SearchInRotatedArray] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-12-16 14:27:30,506 [Worker-104: Launching SearchInRotatedArray] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\pratyushd\DSAlgoWS\Arrays\src\main\resources
+2019-12-16 14:27:30,507 [Worker-104: Launching SearchInRotatedArray] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-12-16 14:27:30,508 [Worker-104: Launching SearchInRotatedArray] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\pratyushd\DSAlgoWS\Arrays\src\test\resources
+2019-12-16 15:10:22,057 [Worker-118: Launching SearchInRotatedArray] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-12-16 15:10:22,058 [Worker-118: Launching SearchInRotatedArray] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\pratyushd\DSAlgoWS\Arrays\src\main\resources
+2019-12-16 15:10:22,059 [Worker-118: Launching SearchInRotatedArray] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-12-16 15:10:22,059 [Worker-118: Launching SearchInRotatedArray] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\pratyushd\DSAlgoWS\Arrays\src\test\resources
+2019-12-16 15:34:58,147 [Worker-129: Launching SearchInRotatedArray] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-12-16 15:34:58,148 [Worker-129: Launching SearchInRotatedArray] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\pratyushd\DSAlgoWS\Arrays\src\main\resources
+2019-12-16 15:34:58,148 [Worker-129: Launching SearchInRotatedArray] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-12-16 15:34:58,149 [Worker-129: Launching SearchInRotatedArray] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\pratyushd\DSAlgoWS\Arrays\src\test\resources
+2019-12-16 16:36:23,170 [Worker-140: Launching SumPairSearch] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-12-16 16:36:23,170 [Worker-140: Launching SumPairSearch] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\pratyushd\DSAlgoWS\Arrays\src\main\resources
+2019-12-16 16:36:23,171 [Worker-140: Launching SumPairSearch] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-12-16 16:36:23,171 [Worker-140: Launching SumPairSearch] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\pratyushd\DSAlgoWS\Arrays\src\test\resources
+2019-12-16 17:27:06,742 [Worker-158: Launching MaxValueOfSumOfProducts] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-12-16 17:27:06,742 [Worker-158: Launching MaxValueOfSumOfProducts] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\pratyushd\DSAlgoWS\Arrays\src\main\resources
+2019-12-16 17:27:06,743 [Worker-158: Launching MaxValueOfSumOfProducts] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-12-16 17:27:06,744 [Worker-158: Launching MaxValueOfSumOfProducts] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\pratyushd\DSAlgoWS\Arrays\src\test\resources
+2019-12-16 17:27:35,602 [Worker-162: Launching MaxValueOfSumOfProducts] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-12-16 17:27:35,602 [Worker-162: Launching MaxValueOfSumOfProducts] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\pratyushd\DSAlgoWS\Arrays\src\main\resources
+2019-12-16 17:27:35,603 [Worker-162: Launching MaxValueOfSumOfProducts] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-12-16 17:27:35,603 [Worker-162: Launching MaxValueOfSumOfProducts] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\pratyushd\DSAlgoWS\Arrays\src\test\resources
+2019-12-16 17:28:48,685 [Worker-161: Launching MaxValueOfSumOfProducts] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-12-16 17:28:48,686 [Worker-161: Launching MaxValueOfSumOfProducts] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\pratyushd\DSAlgoWS\Arrays\src\main\resources
