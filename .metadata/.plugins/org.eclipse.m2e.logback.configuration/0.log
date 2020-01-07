@@ -267,3 +267,243 @@ java.io.IOException: Access is denied
 2019-12-16 17:27:35,603 [Worker-162: Launching MaxValueOfSumOfProducts] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\pratyushd\DSAlgoWS\Arrays\src\test\resources
 2019-12-16 17:28:48,685 [Worker-161: Launching MaxValueOfSumOfProducts] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
 2019-12-16 17:28:48,686 [Worker-161: Launching MaxValueOfSumOfProducts] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\pratyushd\DSAlgoWS\Arrays\src\main\resources
+2019-12-16 17:28:48,687 [Worker-161: Launching MaxValueOfSumOfProducts] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-12-16 17:28:48,687 [Worker-161: Launching MaxValueOfSumOfProducts] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\pratyushd\DSAlgoWS\Arrays\src\test\resources
+2019-12-17 14:28:21,637 [Worker-1: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2019-12-17 14:28:27,659 [ForkJoinPool.commonPool-worker-2] ERROR o.e.j.i.storage.file.LockFile - Creating lock file C:\Program Files\Java\jdk1.8.0_191\bin\.gitconfig.lock failed
+java.io.IOException: Access is denied
+	at java.io.WinNTFileSystem.createFileExclusively(Native Method) ~[na:1.8.0_191]
+	at java.io.File.createNewFile(Unknown Source) ~[na:1.8.0_191]
+	at org.eclipse.jgit.util.FS.createNewFileAtomic(FS.java:1593) ~[org.eclipse.jgit_5.5.1.201910021850-r.jar:5.5.1.201910021850-r]
+	at org.eclipse.jgit.internal.storage.file.LockFile.lock(LockFile.java:165) ~[org.eclipse.jgit_5.5.1.201910021850-r.jar:5.5.1.201910021850-r]
+	at org.eclipse.jgit.storage.file.FileBasedConfig.save(FileBasedConfig.java:252) [org.eclipse.jgit_5.5.1.201910021850-r.jar:5.5.1.201910021850-r]
+	at org.eclipse.jgit.util.FS$FileStoreAttributes.saveToConfig(FS.java:584) [org.eclipse.jgit_5.5.1.201910021850-r.jar:5.5.1.201910021850-r]
+	at org.eclipse.jgit.util.FS$FileStoreAttributes.lambda$0(FS.java:364) [org.eclipse.jgit_5.5.1.201910021850-r.jar:5.5.1.201910021850-r]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(Unknown Source) ~[na:1.8.0_191]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.exec(Unknown Source) ~[na:1.8.0_191]
+	at java.util.concurrent.ForkJoinTask.doExec(Unknown Source) ~[na:1.8.0_191]
+	at java.util.concurrent.ForkJoinPool$WorkQueue.runTask(Unknown Source) ~[na:1.8.0_191]
+	at java.util.concurrent.ForkJoinPool.runWorker(Unknown Source) ~[na:1.8.0_191]
+	at java.util.concurrent.ForkJoinWorkerThread.run(Unknown Source) ~[na:1.8.0_191]
+2019-12-17 14:28:27,667 [ForkJoinPool.commonPool-worker-2] ERROR org.eclipse.jgit.util.FS - Cannot save config file 'FileBasedConfig[C:\Program Files\Java\jdk1.8.0_191\bin\.gitconfig]'
+java.io.IOException: Access is denied
+	at java.io.WinNTFileSystem.createFileExclusively(Native Method) ~[na:1.8.0_191]
+	at java.io.File.createNewFile(Unknown Source) ~[na:1.8.0_191]
+	at org.eclipse.jgit.util.FS.createNewFileAtomic(FS.java:1593) ~[org.eclipse.jgit_5.5.1.201910021850-r.jar:5.5.1.201910021850-r]
+	at org.eclipse.jgit.internal.storage.file.LockFile.lock(LockFile.java:165) ~[org.eclipse.jgit_5.5.1.201910021850-r.jar:5.5.1.201910021850-r]
+	at org.eclipse.jgit.storage.file.FileBasedConfig.save(FileBasedConfig.java:252) ~[org.eclipse.jgit_5.5.1.201910021850-r.jar:5.5.1.201910021850-r]
+	at org.eclipse.jgit.util.FS$FileStoreAttributes.saveToConfig(FS.java:584) [org.eclipse.jgit_5.5.1.201910021850-r.jar:5.5.1.201910021850-r]
+	at org.eclipse.jgit.util.FS$FileStoreAttributes.lambda$0(FS.java:364) [org.eclipse.jgit_5.5.1.201910021850-r.jar:5.5.1.201910021850-r]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(Unknown Source) ~[na:1.8.0_191]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.exec(Unknown Source) ~[na:1.8.0_191]
+	at java.util.concurrent.ForkJoinTask.doExec(Unknown Source) ~[na:1.8.0_191]
+	at java.util.concurrent.ForkJoinPool$WorkQueue.runTask(Unknown Source) ~[na:1.8.0_191]
+	at java.util.concurrent.ForkJoinPool.runWorker(Unknown Source) ~[na:1.8.0_191]
+	at java.util.concurrent.ForkJoinWorkerThread.run(Unknown Source) ~[na:1.8.0_191]
+2019-12-19 10:14:00,686 [Worker-592: Launching RotationTimeCOn] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-12-19 10:14:00,695 [Worker-592: Launching RotationTimeCOn] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\pratyushd\DSAlgoWS\Arrays\src\main\resources
+2019-12-19 10:14:00,696 [Worker-592: Launching RotationTimeCOn] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-12-19 10:14:00,697 [Worker-592: Launching RotationTimeCOn] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\pratyushd\DSAlgoWS\Arrays\src\test\resources
+2019-12-19 10:14:23,961 [Worker-591: Launching RotationTimeCOn] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-12-19 10:14:23,961 [Worker-591: Launching RotationTimeCOn] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\pratyushd\DSAlgoWS\Arrays\src\main\resources
+2019-12-19 10:14:23,962 [Worker-591: Launching RotationTimeCOn] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-12-19 10:14:23,963 [Worker-591: Launching RotationTimeCOn] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\pratyushd\DSAlgoWS\Arrays\src\test\resources
+2019-12-19 10:14:49,754 [Worker-594: Launching RotationTimeCOn] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-12-19 10:14:49,754 [Worker-594: Launching RotationTimeCOn] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\pratyushd\DSAlgoWS\Arrays\src\main\resources
+2019-12-19 10:14:49,754 [Worker-594: Launching RotationTimeCOn] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-12-19 10:14:49,754 [Worker-594: Launching RotationTimeCOn] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\pratyushd\DSAlgoWS\Arrays\src\test\resources
+2019-12-19 10:15:01,702 [Worker-594: Launching RotationTimeCOn] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-12-19 10:15:01,703 [Worker-594: Launching RotationTimeCOn] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\pratyushd\DSAlgoWS\Arrays\src\main\resources
+2019-12-19 10:15:01,704 [Worker-594: Launching RotationTimeCOn] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-12-19 10:15:01,704 [Worker-594: Launching RotationTimeCOn] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\pratyushd\DSAlgoWS\Arrays\src\test\resources
+2019-12-19 10:15:20,634 [Worker-593: Launching RotationTimeCOn] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-12-19 10:15:20,635 [Worker-593: Launching RotationTimeCOn] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\pratyushd\DSAlgoWS\Arrays\src\main\resources
+2019-12-19 10:15:20,635 [Worker-593: Launching RotationTimeCOn] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-12-19 10:15:20,635 [Worker-593: Launching RotationTimeCOn] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\pratyushd\DSAlgoWS\Arrays\src\test\resources
+2019-12-19 10:39:02,029 [Worker-604: Launching MaxProductSubArray] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-12-19 10:39:02,029 [Worker-604: Launching MaxProductSubArray] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\pratyushd\DSAlgoWS\Arrays\src\main\resources
+2019-12-19 10:39:02,030 [Worker-604: Launching MaxProductSubArray] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-12-19 10:39:02,031 [Worker-604: Launching MaxProductSubArray] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\pratyushd\DSAlgoWS\Arrays\src\test\resources
+2019-12-19 10:40:02,810 [Worker-604: Launching MaxProductSubArray] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-12-19 10:40:02,810 [Worker-604: Launching MaxProductSubArray] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\pratyushd\DSAlgoWS\Arrays\src\main\resources
+2019-12-19 10:40:02,811 [Worker-604: Launching MaxProductSubArray] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-12-19 10:40:02,811 [Worker-604: Launching MaxProductSubArray] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\pratyushd\DSAlgoWS\Arrays\src\test\resources
+2019-12-19 10:40:34,017 [Worker-603: Launching MaxProductSubArray] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-12-19 10:40:34,017 [Worker-603: Launching MaxProductSubArray] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\pratyushd\DSAlgoWS\Arrays\src\main\resources
+2019-12-19 10:40:34,018 [Worker-603: Launching MaxProductSubArray] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-12-19 10:40:34,018 [Worker-603: Launching MaxProductSubArray] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\pratyushd\DSAlgoWS\Arrays\src\test\resources
+2019-12-19 11:06:43,723 [Worker-616: Launching RodCutting2] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-12-19 11:06:43,724 [Worker-616: Launching RodCutting2] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\pratyushd\DSAlgoWS\DynamicProgramming\src\main\resources
+2019-12-19 11:06:43,725 [Worker-616: Launching RodCutting2] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-12-19 11:06:43,725 [Worker-616: Launching RodCutting2] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\pratyushd\DSAlgoWS\DynamicProgramming\src\test\resources
+2019-12-19 11:19:32,144 [Worker-618: Launching RodCuttingDP2] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-12-19 11:19:32,144 [Worker-618: Launching RodCuttingDP2] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\pratyushd\DSAlgoWS\DynamicProgramming\src\main\resources
+2019-12-19 11:19:32,145 [Worker-618: Launching RodCuttingDP2] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-12-19 11:19:32,145 [Worker-618: Launching RodCuttingDP2] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\pratyushd\DSAlgoWS\DynamicProgramming\src\test\resources
+2019-12-23 10:51:33,417 [Worker-2: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2019-12-23 10:51:40,526 [ForkJoinPool.commonPool-worker-2] ERROR o.e.j.i.storage.file.LockFile - Creating lock file C:\Program Files\Java\jdk1.8.0_191\bin\.gitconfig.lock failed
+java.io.IOException: Access is denied
+	at java.io.WinNTFileSystem.createFileExclusively(Native Method) ~[na:1.8.0_191]
+	at java.io.File.createNewFile(Unknown Source) ~[na:1.8.0_191]
+	at org.eclipse.jgit.util.FS.createNewFileAtomic(FS.java:1593) ~[org.eclipse.jgit_5.5.1.201910021850-r.jar:5.5.1.201910021850-r]
+	at org.eclipse.jgit.internal.storage.file.LockFile.lock(LockFile.java:165) ~[org.eclipse.jgit_5.5.1.201910021850-r.jar:5.5.1.201910021850-r]
+	at org.eclipse.jgit.storage.file.FileBasedConfig.save(FileBasedConfig.java:252) [org.eclipse.jgit_5.5.1.201910021850-r.jar:5.5.1.201910021850-r]
+	at org.eclipse.jgit.util.FS$FileStoreAttributes.saveToConfig(FS.java:584) [org.eclipse.jgit_5.5.1.201910021850-r.jar:5.5.1.201910021850-r]
+	at org.eclipse.jgit.util.FS$FileStoreAttributes.lambda$0(FS.java:364) [org.eclipse.jgit_5.5.1.201910021850-r.jar:5.5.1.201910021850-r]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(Unknown Source) ~[na:1.8.0_191]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.exec(Unknown Source) ~[na:1.8.0_191]
+	at java.util.concurrent.ForkJoinTask.doExec(Unknown Source) ~[na:1.8.0_191]
+	at java.util.concurrent.ForkJoinPool$WorkQueue.runTask(Unknown Source) ~[na:1.8.0_191]
+	at java.util.concurrent.ForkJoinPool.runWorker(Unknown Source) ~[na:1.8.0_191]
+	at java.util.concurrent.ForkJoinWorkerThread.run(Unknown Source) ~[na:1.8.0_191]
+2019-12-23 10:51:40,534 [ForkJoinPool.commonPool-worker-2] ERROR org.eclipse.jgit.util.FS - Cannot save config file 'FileBasedConfig[C:\Program Files\Java\jdk1.8.0_191\bin\.gitconfig]'
+java.io.IOException: Access is denied
+	at java.io.WinNTFileSystem.createFileExclusively(Native Method) ~[na:1.8.0_191]
+	at java.io.File.createNewFile(Unknown Source) ~[na:1.8.0_191]
+	at org.eclipse.jgit.util.FS.createNewFileAtomic(FS.java:1593) ~[org.eclipse.jgit_5.5.1.201910021850-r.jar:5.5.1.201910021850-r]
+	at org.eclipse.jgit.internal.storage.file.LockFile.lock(LockFile.java:165) ~[org.eclipse.jgit_5.5.1.201910021850-r.jar:5.5.1.201910021850-r]
+	at org.eclipse.jgit.storage.file.FileBasedConfig.save(FileBasedConfig.java:252) ~[org.eclipse.jgit_5.5.1.201910021850-r.jar:5.5.1.201910021850-r]
+	at org.eclipse.jgit.util.FS$FileStoreAttributes.saveToConfig(FS.java:584) [org.eclipse.jgit_5.5.1.201910021850-r.jar:5.5.1.201910021850-r]
+	at org.eclipse.jgit.util.FS$FileStoreAttributes.lambda$0(FS.java:364) [org.eclipse.jgit_5.5.1.201910021850-r.jar:5.5.1.201910021850-r]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(Unknown Source) ~[na:1.8.0_191]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.exec(Unknown Source) ~[na:1.8.0_191]
+	at java.util.concurrent.ForkJoinTask.doExec(Unknown Source) ~[na:1.8.0_191]
+	at java.util.concurrent.ForkJoinPool$WorkQueue.runTask(Unknown Source) ~[na:1.8.0_191]
+	at java.util.concurrent.ForkJoinPool.runWorker(Unknown Source) ~[na:1.8.0_191]
+	at java.util.concurrent.ForkJoinWorkerThread.run(Unknown Source) ~[na:1.8.0_191]
+2020-01-02 12:25:43,838 [Worker-0: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2020-01-02 12:25:50,276 [ForkJoinPool.commonPool-worker-2] ERROR o.e.j.i.storage.file.LockFile - Creating lock file C:\Program Files\Java\jdk1.8.0_191\bin\.gitconfig.lock failed
+java.io.IOException: Access is denied
+	at java.io.WinNTFileSystem.createFileExclusively(Native Method) ~[na:1.8.0_191]
+	at java.io.File.createNewFile(Unknown Source) ~[na:1.8.0_191]
+	at org.eclipse.jgit.util.FS.createNewFileAtomic(FS.java:1593) ~[org.eclipse.jgit_5.5.1.201910021850-r.jar:5.5.1.201910021850-r]
+	at org.eclipse.jgit.internal.storage.file.LockFile.lock(LockFile.java:165) ~[org.eclipse.jgit_5.5.1.201910021850-r.jar:5.5.1.201910021850-r]
+	at org.eclipse.jgit.storage.file.FileBasedConfig.save(FileBasedConfig.java:252) [org.eclipse.jgit_5.5.1.201910021850-r.jar:5.5.1.201910021850-r]
+	at org.eclipse.jgit.util.FS$FileStoreAttributes.saveToConfig(FS.java:584) [org.eclipse.jgit_5.5.1.201910021850-r.jar:5.5.1.201910021850-r]
+	at org.eclipse.jgit.util.FS$FileStoreAttributes.lambda$0(FS.java:364) [org.eclipse.jgit_5.5.1.201910021850-r.jar:5.5.1.201910021850-r]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(Unknown Source) ~[na:1.8.0_191]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.exec(Unknown Source) ~[na:1.8.0_191]
+	at java.util.concurrent.ForkJoinTask.doExec(Unknown Source) ~[na:1.8.0_191]
+	at java.util.concurrent.ForkJoinPool$WorkQueue.runTask(Unknown Source) ~[na:1.8.0_191]
+	at java.util.concurrent.ForkJoinPool.runWorker(Unknown Source) ~[na:1.8.0_191]
+	at java.util.concurrent.ForkJoinWorkerThread.run(Unknown Source) ~[na:1.8.0_191]
+2020-01-02 12:25:50,284 [ForkJoinPool.commonPool-worker-2] ERROR org.eclipse.jgit.util.FS - Cannot save config file 'FileBasedConfig[C:\Program Files\Java\jdk1.8.0_191\bin\.gitconfig]'
+java.io.IOException: Access is denied
+	at java.io.WinNTFileSystem.createFileExclusively(Native Method) ~[na:1.8.0_191]
+	at java.io.File.createNewFile(Unknown Source) ~[na:1.8.0_191]
+	at org.eclipse.jgit.util.FS.createNewFileAtomic(FS.java:1593) ~[org.eclipse.jgit_5.5.1.201910021850-r.jar:5.5.1.201910021850-r]
+	at org.eclipse.jgit.internal.storage.file.LockFile.lock(LockFile.java:165) ~[org.eclipse.jgit_5.5.1.201910021850-r.jar:5.5.1.201910021850-r]
+	at org.eclipse.jgit.storage.file.FileBasedConfig.save(FileBasedConfig.java:252) ~[org.eclipse.jgit_5.5.1.201910021850-r.jar:5.5.1.201910021850-r]
+	at org.eclipse.jgit.util.FS$FileStoreAttributes.saveToConfig(FS.java:584) [org.eclipse.jgit_5.5.1.201910021850-r.jar:5.5.1.201910021850-r]
+	at org.eclipse.jgit.util.FS$FileStoreAttributes.lambda$0(FS.java:364) [org.eclipse.jgit_5.5.1.201910021850-r.jar:5.5.1.201910021850-r]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(Unknown Source) ~[na:1.8.0_191]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.exec(Unknown Source) ~[na:1.8.0_191]
+	at java.util.concurrent.ForkJoinTask.doExec(Unknown Source) ~[na:1.8.0_191]
+	at java.util.concurrent.ForkJoinPool$WorkQueue.runTask(Unknown Source) ~[na:1.8.0_191]
+	at java.util.concurrent.ForkJoinPool.runWorker(Unknown Source) ~[na:1.8.0_191]
+	at java.util.concurrent.ForkJoinWorkerThread.run(Unknown Source) ~[na:1.8.0_191]
+2020-01-03 17:20:48,514 [Worker-0: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2020-01-03 17:20:54,316 [ForkJoinPool.commonPool-worker-2] ERROR o.e.j.i.storage.file.LockFile - Creating lock file C:\Program Files\Java\jdk1.8.0_191\bin\.gitconfig.lock failed
+java.io.IOException: Access is denied
+	at java.io.WinNTFileSystem.createFileExclusively(Native Method) ~[na:1.8.0_191]
+	at java.io.File.createNewFile(Unknown Source) ~[na:1.8.0_191]
+	at org.eclipse.jgit.util.FS.createNewFileAtomic(FS.java:1593) ~[org.eclipse.jgit_5.5.1.201910021850-r.jar:5.5.1.201910021850-r]
+	at org.eclipse.jgit.internal.storage.file.LockFile.lock(LockFile.java:165) ~[org.eclipse.jgit_5.5.1.201910021850-r.jar:5.5.1.201910021850-r]
+	at org.eclipse.jgit.storage.file.FileBasedConfig.save(FileBasedConfig.java:252) [org.eclipse.jgit_5.5.1.201910021850-r.jar:5.5.1.201910021850-r]
+	at org.eclipse.jgit.util.FS$FileStoreAttributes.saveToConfig(FS.java:584) [org.eclipse.jgit_5.5.1.201910021850-r.jar:5.5.1.201910021850-r]
+	at org.eclipse.jgit.util.FS$FileStoreAttributes.lambda$0(FS.java:364) [org.eclipse.jgit_5.5.1.201910021850-r.jar:5.5.1.201910021850-r]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(Unknown Source) ~[na:1.8.0_191]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.exec(Unknown Source) ~[na:1.8.0_191]
+	at java.util.concurrent.ForkJoinTask.doExec(Unknown Source) ~[na:1.8.0_191]
+	at java.util.concurrent.ForkJoinPool$WorkQueue.runTask(Unknown Source) ~[na:1.8.0_191]
+	at java.util.concurrent.ForkJoinPool.runWorker(Unknown Source) ~[na:1.8.0_191]
+	at java.util.concurrent.ForkJoinWorkerThread.run(Unknown Source) ~[na:1.8.0_191]
+2020-01-03 17:20:54,325 [ForkJoinPool.commonPool-worker-2] ERROR org.eclipse.jgit.util.FS - Cannot save config file 'FileBasedConfig[C:\Program Files\Java\jdk1.8.0_191\bin\.gitconfig]'
+java.io.IOException: Access is denied
+	at java.io.WinNTFileSystem.createFileExclusively(Native Method) ~[na:1.8.0_191]
+	at java.io.File.createNewFile(Unknown Source) ~[na:1.8.0_191]
+	at org.eclipse.jgit.util.FS.createNewFileAtomic(FS.java:1593) ~[org.eclipse.jgit_5.5.1.201910021850-r.jar:5.5.1.201910021850-r]
+	at org.eclipse.jgit.internal.storage.file.LockFile.lock(LockFile.java:165) ~[org.eclipse.jgit_5.5.1.201910021850-r.jar:5.5.1.201910021850-r]
+	at org.eclipse.jgit.storage.file.FileBasedConfig.save(FileBasedConfig.java:252) ~[org.eclipse.jgit_5.5.1.201910021850-r.jar:5.5.1.201910021850-r]
+	at org.eclipse.jgit.util.FS$FileStoreAttributes.saveToConfig(FS.java:584) [org.eclipse.jgit_5.5.1.201910021850-r.jar:5.5.1.201910021850-r]
+	at org.eclipse.jgit.util.FS$FileStoreAttributes.lambda$0(FS.java:364) [org.eclipse.jgit_5.5.1.201910021850-r.jar:5.5.1.201910021850-r]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(Unknown Source) ~[na:1.8.0_191]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.exec(Unknown Source) ~[na:1.8.0_191]
+	at java.util.concurrent.ForkJoinTask.doExec(Unknown Source) ~[na:1.8.0_191]
+	at java.util.concurrent.ForkJoinPool$WorkQueue.runTask(Unknown Source) ~[na:1.8.0_191]
+	at java.util.concurrent.ForkJoinPool.runWorker(Unknown Source) ~[na:1.8.0_191]
+	at java.util.concurrent.ForkJoinWorkerThread.run(Unknown Source) ~[na:1.8.0_191]
+2020-01-07 13:33:35,405 [Worker-6: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2020-01-07 13:33:40,934 [ForkJoinPool.commonPool-worker-2] ERROR o.e.j.i.storage.file.LockFile - Creating lock file C:\Program Files\Java\jdk1.8.0_191\bin\.gitconfig.lock failed
+java.io.IOException: Access is denied
+	at java.io.WinNTFileSystem.createFileExclusively(Native Method) ~[na:1.8.0_191]
+	at java.io.File.createNewFile(Unknown Source) ~[na:1.8.0_191]
+	at org.eclipse.jgit.util.FS.createNewFileAtomic(FS.java:1593) ~[org.eclipse.jgit_5.5.1.201910021850-r.jar:5.5.1.201910021850-r]
+	at org.eclipse.jgit.internal.storage.file.LockFile.lock(LockFile.java:165) ~[org.eclipse.jgit_5.5.1.201910021850-r.jar:5.5.1.201910021850-r]
+	at org.eclipse.jgit.storage.file.FileBasedConfig.save(FileBasedConfig.java:252) [org.eclipse.jgit_5.5.1.201910021850-r.jar:5.5.1.201910021850-r]
+	at org.eclipse.jgit.util.FS$FileStoreAttributes.saveToConfig(FS.java:584) [org.eclipse.jgit_5.5.1.201910021850-r.jar:5.5.1.201910021850-r]
+	at org.eclipse.jgit.util.FS$FileStoreAttributes.lambda$0(FS.java:364) [org.eclipse.jgit_5.5.1.201910021850-r.jar:5.5.1.201910021850-r]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(Unknown Source) ~[na:1.8.0_191]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.exec(Unknown Source) ~[na:1.8.0_191]
+	at java.util.concurrent.ForkJoinTask.doExec(Unknown Source) ~[na:1.8.0_191]
+	at java.util.concurrent.ForkJoinPool$WorkQueue.runTask(Unknown Source) ~[na:1.8.0_191]
+	at java.util.concurrent.ForkJoinPool.runWorker(Unknown Source) ~[na:1.8.0_191]
+	at java.util.concurrent.ForkJoinWorkerThread.run(Unknown Source) ~[na:1.8.0_191]
+2020-01-07 13:33:40,945 [ForkJoinPool.commonPool-worker-2] ERROR org.eclipse.jgit.util.FS - Cannot save config file 'FileBasedConfig[C:\Program Files\Java\jdk1.8.0_191\bin\.gitconfig]'
+java.io.IOException: Access is denied
+	at java.io.WinNTFileSystem.createFileExclusively(Native Method) ~[na:1.8.0_191]
+	at java.io.File.createNewFile(Unknown Source) ~[na:1.8.0_191]
+	at org.eclipse.jgit.util.FS.createNewFileAtomic(FS.java:1593) ~[org.eclipse.jgit_5.5.1.201910021850-r.jar:5.5.1.201910021850-r]
+	at org.eclipse.jgit.internal.storage.file.LockFile.lock(LockFile.java:165) ~[org.eclipse.jgit_5.5.1.201910021850-r.jar:5.5.1.201910021850-r]
+	at org.eclipse.jgit.storage.file.FileBasedConfig.save(FileBasedConfig.java:252) ~[org.eclipse.jgit_5.5.1.201910021850-r.jar:5.5.1.201910021850-r]
+	at org.eclipse.jgit.util.FS$FileStoreAttributes.saveToConfig(FS.java:584) [org.eclipse.jgit_5.5.1.201910021850-r.jar:5.5.1.201910021850-r]
+	at org.eclipse.jgit.util.FS$FileStoreAttributes.lambda$0(FS.java:364) [org.eclipse.jgit_5.5.1.201910021850-r.jar:5.5.1.201910021850-r]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(Unknown Source) ~[na:1.8.0_191]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.exec(Unknown Source) ~[na:1.8.0_191]
+	at java.util.concurrent.ForkJoinTask.doExec(Unknown Source) ~[na:1.8.0_191]
+	at java.util.concurrent.ForkJoinPool$WorkQueue.runTask(Unknown Source) ~[na:1.8.0_191]
+	at java.util.concurrent.ForkJoinPool.runWorker(Unknown Source) ~[na:1.8.0_191]
+	at java.util.concurrent.ForkJoinWorkerThread.run(Unknown Source) ~[na:1.8.0_191]
+2020-01-07 17:34:19,102 [Worker-0: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2020-01-07 17:34:24,142 [ForkJoinPool.commonPool-worker-1] ERROR o.e.j.i.storage.file.LockFile - Creating lock file C:\Program Files\Java\jdk1.8.0_191\bin\.gitconfig.lock failed
+java.io.IOException: Access is denied
+	at java.io.WinNTFileSystem.createFileExclusively(Native Method) ~[na:1.8.0_191]
+	at java.io.File.createNewFile(Unknown Source) ~[na:1.8.0_191]
+	at org.eclipse.jgit.util.FS.createNewFileAtomic(FS.java:1593) ~[org.eclipse.jgit_5.5.1.201910021850-r.jar:5.5.1.201910021850-r]
+	at org.eclipse.jgit.internal.storage.file.LockFile.lock(LockFile.java:165) ~[org.eclipse.jgit_5.5.1.201910021850-r.jar:5.5.1.201910021850-r]
+	at org.eclipse.jgit.storage.file.FileBasedConfig.save(FileBasedConfig.java:252) [org.eclipse.jgit_5.5.1.201910021850-r.jar:5.5.1.201910021850-r]
+	at org.eclipse.jgit.util.FS$FileStoreAttributes.saveToConfig(FS.java:584) [org.eclipse.jgit_5.5.1.201910021850-r.jar:5.5.1.201910021850-r]
+	at org.eclipse.jgit.util.FS$FileStoreAttributes.lambda$0(FS.java:364) [org.eclipse.jgit_5.5.1.201910021850-r.jar:5.5.1.201910021850-r]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(Unknown Source) ~[na:1.8.0_191]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.exec(Unknown Source) ~[na:1.8.0_191]
+	at java.util.concurrent.ForkJoinTask.doExec(Unknown Source) ~[na:1.8.0_191]
+	at java.util.concurrent.ForkJoinPool$WorkQueue.runTask(Unknown Source) ~[na:1.8.0_191]
+	at java.util.concurrent.ForkJoinPool.runWorker(Unknown Source) ~[na:1.8.0_191]
+	at java.util.concurrent.ForkJoinWorkerThread.run(Unknown Source) ~[na:1.8.0_191]
+2020-01-07 17:34:24,185 [ForkJoinPool.commonPool-worker-1] ERROR org.eclipse.jgit.util.FS - Cannot save config file 'FileBasedConfig[C:\Program Files\Java\jdk1.8.0_191\bin\.gitconfig]'
+java.io.IOException: Access is denied
+	at java.io.WinNTFileSystem.createFileExclusively(Native Method) ~[na:1.8.0_191]
+	at java.io.File.createNewFile(Unknown Source) ~[na:1.8.0_191]
+	at org.eclipse.jgit.util.FS.createNewFileAtomic(FS.java:1593) ~[org.eclipse.jgit_5.5.1.201910021850-r.jar:5.5.1.201910021850-r]
+	at org.eclipse.jgit.internal.storage.file.LockFile.lock(LockFile.java:165) ~[org.eclipse.jgit_5.5.1.201910021850-r.jar:5.5.1.201910021850-r]
+	at org.eclipse.jgit.storage.file.FileBasedConfig.save(FileBasedConfig.java:252) ~[org.eclipse.jgit_5.5.1.201910021850-r.jar:5.5.1.201910021850-r]
+	at org.eclipse.jgit.util.FS$FileStoreAttributes.saveToConfig(FS.java:584) [org.eclipse.jgit_5.5.1.201910021850-r.jar:5.5.1.201910021850-r]
+	at org.eclipse.jgit.util.FS$FileStoreAttributes.lambda$0(FS.java:364) [org.eclipse.jgit_5.5.1.201910021850-r.jar:5.5.1.201910021850-r]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(Unknown Source) ~[na:1.8.0_191]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.exec(Unknown Source) ~[na:1.8.0_191]
+	at java.util.concurrent.ForkJoinTask.doExec(Unknown Source) ~[na:1.8.0_191]
+	at java.util.concurrent.ForkJoinPool$WorkQueue.runTask(Unknown Source) ~[na:1.8.0_191]
+	at java.util.concurrent.ForkJoinPool.runWorker(Unknown Source) ~[na:1.8.0_191]
+	at java.util.concurrent.ForkJoinWorkerThread.run(Unknown Source) ~[na:1.8.0_191]
+2020-01-07 17:35:29,052 [ModalContext] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com:BinaryTree.ExpressionTree:0.1.0-SNAPSHOT @ C:\Users\pratyushd\DSAlgoWS\BinaryTree\pom.xml.
+2020-01-07 17:35:31,313 [ModalContext] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /BinaryTree/src/main/java
+2020-01-07 17:35:31,321 [ModalContext] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /BinaryTree/src/test/java
+2020-01-07 17:51:53,364 [Worker-8: Launching ExpressionTreeProblem] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com:BinaryTree.ExpressionTree:0.1.0-SNAPSHOT @ C:\Users\pratyushd\DSAlgoWS\BinaryTree\pom.xml.
+2020-01-07 17:51:55,046 [Worker-8: Launching ExpressionTreeProblem] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-07 17:51:55,046 [Worker-8: Launching ExpressionTreeProblem] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\pratyushd\DSAlgoWS\BinaryTree\src\main\resources
+2020-01-07 17:51:55,047 [Worker-8: Launching ExpressionTreeProblem] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-07 17:51:55,047 [Worker-8: Launching ExpressionTreeProblem] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\pratyushd\DSAlgoWS\BinaryTree\src\test\resources
+2020-01-07 17:52:10,417 [Worker-0: Launching ExpressionTreeProblem] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-07 17:52:10,418 [Worker-0: Launching ExpressionTreeProblem] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\pratyushd\DSAlgoWS\BinaryTree\src\main\resources
+2020-01-07 17:52:10,419 [Worker-0: Launching ExpressionTreeProblem] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-07 17:52:10,419 [Worker-0: Launching ExpressionTreeProblem] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\pratyushd\DSAlgoWS\BinaryTree\src\test\resources
