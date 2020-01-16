@@ -8398,3 +8398,39 @@ java.util.concurrent.TimeoutException
 
 !ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-16 16:04:35.229
 !MESSAGE executing callback sts4.classpath.vDfbDsgY SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-16 16:52:35.245
+!MESSAGE Preparing classpath changed notification Graph
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-16 16:52:35.264
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-16 16:52:35.271
+!MESSAGE classpath=24 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-16 16:52:35.276
+!MESSAGE buffering callback sts4.classpath.vDfbDsgY Graph false 24
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-16 16:52:35.282
+!MESSAGE executing callback sts4.classpath.vDfbDsgY 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-16 16:52:35.293
+!MESSAGE executing callback sts4.classpath.vDfbDsgY SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-16 16:52:35.324
+!MESSAGE Preparing classpath changed notification Graph
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-16 16:52:35.329
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-16 16:52:35.335
+!MESSAGE classpath=26 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-16 16:52:35.340
+!MESSAGE buffering callback sts4.classpath.vDfbDsgY Graph false 26
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-16 16:52:35.344
+!MESSAGE executing callback sts4.classpath.vDfbDsgY 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-16 16:52:35.351
+!MESSAGE executing callback sts4.classpath.vDfbDsgY SUCCESS [done]
