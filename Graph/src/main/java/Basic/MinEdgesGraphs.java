@@ -64,7 +64,7 @@ public class MinEdgesGraphs {
 		
 		for(int i=0;i< edges.length;i++) {
 			
-			edges[i]=new Vector<>();
+			edges[i]=new Vector<>(); 
 		}
 		
 		addEdge(edges,0,1);
