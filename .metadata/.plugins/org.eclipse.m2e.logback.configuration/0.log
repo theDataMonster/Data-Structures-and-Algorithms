@@ -681,3 +681,11 @@ java.io.IOException: Access is denied
 2020-01-20 13:43:11,604 [Worker-68: Building Workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\pratyushd\DSAlgoWS\Sorting\src\test\resources
 2020-01-20 13:47:27,981 [Worker-75: Launching LongestIncreasingSubsequence] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
 2020-01-20 13:47:27,981 [Worker-75: Launching LongestIncreasingSubsequence] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\pratyushd\DSAlgoWS\Hashing\src\main\resources
+2020-01-20 13:47:27,982 [Worker-75: Launching LongestIncreasingSubsequence] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-20 13:47:27,983 [Worker-75: Launching LongestIncreasingSubsequence] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\pratyushd\DSAlgoWS\Hashing\src\test\resources
+2020-01-20 14:55:57,598 [Worker-105: Launching LongestConsecutiveSubsequence] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-20 14:55:57,599 [Worker-105: Launching LongestConsecutiveSubsequence] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\pratyushd\DSAlgoWS\Hashing\src\main\resources
+2020-01-20 14:55:57,600 [Worker-105: Launching LongestConsecutiveSubsequence] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-20 14:55:57,600 [Worker-105: Launching LongestConsecutiveSubsequence] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\pratyushd\DSAlgoWS\Hashing\src\test\resources
+2020-01-20 15:49:08,524 [Worker-114: Launching DistinctWindowCount] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-20 15:49:08,524 [Worker-114: Launching DistinctWindowCount] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\pratyushd\DSAlgoWS\Hashing\src\main\resources
