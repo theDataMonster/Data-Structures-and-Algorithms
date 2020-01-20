@@ -10144,3 +10144,39 @@ org.eclipse.equinox.p2.core.ProvisionException: No repository found at https://d
 
 !ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-20 16:20:10.380
 !MESSAGE executing callback sts4.classpath.qamEWPQY SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-20 17:17:19.191
+!MESSAGE Preparing classpath changed notification Graph
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-20 17:17:19.196
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-20 17:17:19.202
+!MESSAGE classpath=24 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-20 17:17:19.207
+!MESSAGE buffering callback sts4.classpath.qamEWPQY Graph false 24
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-20 17:17:19.212
+!MESSAGE executing callback sts4.classpath.qamEWPQY 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-20 17:17:19.236
+!MESSAGE executing callback sts4.classpath.qamEWPQY SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-20 17:17:19.255
+!MESSAGE Preparing classpath changed notification Graph
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-20 17:17:19.262
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-20 17:17:19.267
+!MESSAGE classpath=26 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-20 17:17:19.273
+!MESSAGE buffering callback sts4.classpath.qamEWPQY Graph false 26
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-20 17:17:19.277
+!MESSAGE executing callback sts4.classpath.qamEWPQY 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-20 17:17:19.284
+!MESSAGE executing callback sts4.classpath.qamEWPQY SUCCESS [done]
