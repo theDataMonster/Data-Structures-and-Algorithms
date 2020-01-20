@@ -689,3 +689,15 @@ java.io.IOException: Access is denied
 2020-01-20 14:55:57,600 [Worker-105: Launching LongestConsecutiveSubsequence] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\pratyushd\DSAlgoWS\Hashing\src\test\resources
 2020-01-20 15:49:08,524 [Worker-114: Launching DistinctWindowCount] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
 2020-01-20 15:49:08,524 [Worker-114: Launching DistinctWindowCount] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\pratyushd\DSAlgoWS\Hashing\src\main\resources
+2020-01-20 15:49:08,525 [Worker-114: Launching DistinctWindowCount] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-20 15:49:08,525 [Worker-114: Launching DistinctWindowCount] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\pratyushd\DSAlgoWS\Hashing\src\test\resources
+2020-01-20 16:22:40,275 [Worker-128: Launching ContiguosIntegersArray] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-20 16:22:40,275 [Worker-128: Launching ContiguosIntegersArray] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\pratyushd\DSAlgoWS\Hashing\src\main\resources
+2020-01-20 16:22:40,276 [Worker-128: Launching ContiguosIntegersArray] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-20 16:22:40,276 [Worker-128: Launching ContiguosIntegersArray] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\pratyushd\DSAlgoWS\Hashing\src\test\resources
+2020-01-20 16:22:51,624 [Worker-128: Launching ContiguosIntegersArray] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-20 16:22:51,624 [Worker-128: Launching ContiguosIntegersArray] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\pratyushd\DSAlgoWS\Hashing\src\main\resources
+2020-01-20 16:22:51,625 [Worker-128: Launching ContiguosIntegersArray] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-20 16:22:51,625 [Worker-128: Launching ContiguosIntegersArray] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\pratyushd\DSAlgoWS\Hashing\src\test\resources
+2020-01-20 16:23:02,654 [Worker-124: Launching ContiguosIntegersArray] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-20 16:23:02,654 [Worker-124: Launching ContiguosIntegersArray] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\pratyushd\DSAlgoWS\Hashing\src\main\resources
