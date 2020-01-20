@@ -642,3 +642,42 @@ java.io.IOException: Access is denied
 2020-01-20 10:49:15,841 [ModalContext] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com:Hashing.Tests:0.1.0-SNAPSHOT @ C:\Users\pratyushd\DSAlgoWS\Hashing\pom.xml.
 2020-01-20 10:49:19,639 [ModalContext] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /Hashing/src/main/java
 2020-01-20 10:49:19,658 [ModalContext] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /Hashing/src/test/java
+2020-01-20 11:27:00,223 [Worker-38: Launching LongestSubarraySumByK] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com:Hashing.Tests:0.1.0-SNAPSHOT @ C:\Users\pratyushd\DSAlgoWS\Hashing\pom.xml.
+2020-01-20 11:27:01,913 [Worker-38: Launching LongestSubarraySumByK] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-20 11:27:01,914 [Worker-38: Launching LongestSubarraySumByK] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\pratyushd\DSAlgoWS\Hashing\src\main\resources
+2020-01-20 11:27:01,915 [Worker-38: Launching LongestSubarraySumByK] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-20 11:27:01,915 [Worker-38: Launching LongestSubarraySumByK] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\pratyushd\DSAlgoWS\Hashing\src\test\resources
+2020-01-20 13:43:08,805 [Worker-68: Building Workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-20 13:43:08,805 [Worker-68: Building Workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\pratyushd\DSAlgoWS\Arrays\src\main\resources
+2020-01-20 13:43:08,806 [Worker-68: Building Workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-20 13:43:08,806 [Worker-68: Building Workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\pratyushd\DSAlgoWS\Arrays\src\test\resources
+2020-01-20 13:43:09,190 [Worker-68: Building Workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-20 13:43:09,190 [Worker-68: Building Workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\pratyushd\DSAlgoWS\BinarySearchTree\src\main\resources
+2020-01-20 13:43:09,191 [Worker-68: Building Workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-20 13:43:09,191 [Worker-68: Building Workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\pratyushd\DSAlgoWS\BinarySearchTree\src\test\resources
+2020-01-20 13:43:09,665 [Worker-68: Building Workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-20 13:43:09,665 [Worker-68: Building Workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\pratyushd\DSAlgoWS\BinaryTree\src\main\resources
+2020-01-20 13:43:09,666 [Worker-68: Building Workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-20 13:43:09,666 [Worker-68: Building Workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\pratyushd\DSAlgoWS\BinaryTree\src\test\resources
+2020-01-20 13:43:10,167 [Worker-68: Building Workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-20 13:43:10,167 [Worker-68: Building Workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\pratyushd\DSAlgoWS\DynamicProgramming\src\main\resources
+2020-01-20 13:43:10,168 [Worker-68: Building Workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-20 13:43:10,168 [Worker-68: Building Workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\pratyushd\DSAlgoWS\DynamicProgramming\src\test\resources
+2020-01-20 13:43:10,342 [Worker-68: Building Workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-20 13:43:10,342 [Worker-68: Building Workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\pratyushd\DSAlgoWS\Hashing\src\main\resources
+2020-01-20 13:43:10,343 [Worker-68: Building Workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-20 13:43:10,343 [Worker-68: Building Workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\pratyushd\DSAlgoWS\Hashing\src\test\resources
+2020-01-20 13:43:10,891 [Worker-68: Building Workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-20 13:43:10,892 [Worker-68: Building Workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\pratyushd\DSAlgoWS\ProblemSolving\src\main\resources
+2020-01-20 13:43:10,892 [Worker-68: Building Workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-20 13:43:10,892 [Worker-68: Building Workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\pratyushd\DSAlgoWS\ProblemSolving\src\test\resources
+2020-01-20 13:43:11,249 [Worker-68: Building Workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-20 13:43:11,250 [Worker-68: Building Workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\pratyushd\DSAlgoWS\Searching\src\main\resources
+2020-01-20 13:43:11,251 [Worker-68: Building Workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-20 13:43:11,251 [Worker-68: Building Workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\pratyushd\DSAlgoWS\Searching\src\test\resources
+2020-01-20 13:43:11,602 [Worker-68: Building Workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-20 13:43:11,602 [Worker-68: Building Workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\pratyushd\DSAlgoWS\Sorting\src\main\resources
+2020-01-20 13:43:11,604 [Worker-68: Building Workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-20 13:43:11,604 [Worker-68: Building Workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\pratyushd\DSAlgoWS\Sorting\src\test\resources
+2020-01-20 13:47:27,981 [Worker-75: Launching LongestIncreasingSubsequence] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-20 13:47:27,981 [Worker-75: Launching LongestIncreasingSubsequence] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\pratyushd\DSAlgoWS\Hashing\src\main\resources
