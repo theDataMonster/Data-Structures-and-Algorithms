@@ -742,3 +742,11 @@ java.io.IOException: Access is denied
 	at java.util.concurrent.ForkJoinPool$WorkQueue.runTask(Unknown Source) ~[na:1.8.0_191]
 	at java.util.concurrent.ForkJoinPool.runWorker(Unknown Source) ~[na:1.8.0_191]
 	at java.util.concurrent.ForkJoinWorkerThread.run(Unknown Source) ~[na:1.8.0_191]
+2020-01-21 16:29:41,785 [Worker-26: Launching HashTableImpl] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-21 16:29:41,788 [Worker-26: Launching HashTableImpl] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\pratyushd\DSAlgoWS\Hashing\src\main\resources
+2020-01-21 16:29:41,791 [Worker-26: Launching HashTableImpl] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-21 16:29:41,791 [Worker-26: Launching HashTableImpl] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\pratyushd\DSAlgoWS\Hashing\src\test\resources
+2020-01-21 16:57:35,400 [Worker-51: Launching PalindromHash] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-21 16:57:35,401 [Worker-51: Launching PalindromHash] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\pratyushd\DSAlgoWS\Hashing\src\main\resources
+2020-01-21 16:57:35,402 [Worker-51: Launching PalindromHash] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-21 16:57:35,402 [Worker-51: Launching PalindromHash] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\pratyushd\DSAlgoWS\Hashing\src\test\resources
