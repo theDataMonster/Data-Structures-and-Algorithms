@@ -17,7 +17,11 @@ public class MatrixProbablity {
 			return 1.0;
 		
 		double prob= 0.0;
+		//Recursion is DFS traversal
+		//Use of queue is BFS
 		
+		
+		//DFS on a directed graph results in a tree
 		prob+=findProbability(m, n, x-1,y, N-1)* 0.25;
 		
 		prob+=findProbability(m,n,x,y+1, N-1)*0.25;
