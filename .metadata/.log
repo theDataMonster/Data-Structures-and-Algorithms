@@ -11504,3 +11504,259 @@ org.eclipse.equinox.p2.core.ProvisionException: No repository found at https://d
 
 !ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-23 11:56:06.293
 !MESSAGE executing callback sts4.classpath.wOuongYy SUCCESS [done]
+!SESSION 2020-01-23 13:36:01.725 -----------------------------------------------
+eclipse.buildId=4.13.0.I20190916-1045
+java.version=1.8.0_191
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_IN
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.eclipse.core.resources 2 10035 2020-01-23 13:36:07.675
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+
+!ENTRY org.eclipse.jface 2 0 2020-01-23 13:36:11.349
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2020-01-23 13:36:11.349
+!MESSAGE A conflict occurred for CTRL+SHIFT+T:
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@28f081ad,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@56fc2cea,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-23 13:36:16.723
+!MESSAGE Entering DelegatingStreamConnectionProvider()
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-23 13:36:16.731
+!MESSAGE DelegatingStreamConnectionProvider classloader = org.eclipse.osgi.internal.loader.EquinoxClassLoader@68844490[org.springframework.tooling.boot.ls:1.9.0.201907120625(id=1491)]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-23 13:36:16.747
+!MESSAGE SpringBootLanguageServer exists!
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-23 13:36:17.011
+!MESSAGE Instantiating ReusableClasspathListenerHandler
+
+!ENTRY org.eclipse.php.debug.core 4 4 2020-01-23 13:36:17.682
+!MESSAGE The debug port 9000 is in use. Please select a different port for the debugger.
+
+!ENTRY org.eclipse.php.debug.core 4 4 2020-01-23 13:36:17.694
+!MESSAGE Could not open a broadcast port on: 20080 (port might be in use). Please select a different port number
+
+!ENTRY org.eclipse.php.debug.core 4 4 2020-01-23 13:36:17.701
+!MESSAGE The debug port 10137 is in use. Please select a different port for the debugger.
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-23 13:36:19.445
+!MESSAGE Boot LS startup time from start to initialized: 2676ms
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-23 13:36:19.483
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.BSQCcVpWisBatched = true
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-23 13:36:19.487
+!MESSAGE subscribing to classpath changes: sts4.classpath.BSQCcVpW isBatched = true
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-23 13:36:19.494
+!MESSAGE Setting up ClasspathListenerManager
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-23 13:36:19.500
+!MESSAGE subsribers = {sts4.classpath.BSQCcVpW=Send Classpath Notifications(82)}
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-23 13:36:19.504
+!MESSAGE Sending initial event for all projects ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-23 13:36:19.534
+!MESSAGE project Graph ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-23 13:36:19.541
+!MESSAGE project Arrays ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-23 13:36:19.547
+!MESSAGE Preparing classpath changed notification Graph
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-23 13:36:19.552
+!MESSAGE project BinarySearchTree ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-23 13:36:19.558
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-23 13:36:19.563
+!MESSAGE project BinaryTree ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-23 13:36:19.567
+!MESSAGE project DynamicProgramming ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-23 13:36:19.572
+!MESSAGE project Hashing ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-23 13:36:19.576
+!MESSAGE project ProblemSolving ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-23 13:36:19.580
+!MESSAGE project Searching ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-23 13:36:19.585
+!MESSAGE project Sorting ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-23 13:36:19.589
+!MESSAGE Sending initial event for all projects DONE
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-23 13:36:19.593
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.BSQCcVpW => OK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-23 13:36:20.873
+!MESSAGE classpath=24 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-23 13:36:20.878
+!MESSAGE buffering callback sts4.classpath.BSQCcVpW Graph false 24
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-23 13:36:20.885
+!MESSAGE Preparing classpath changed notification Arrays
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-23 13:36:20.891
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-23 13:36:20.901
+!MESSAGE classpath=26 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-23 13:36:20.909
+!MESSAGE buffering callback sts4.classpath.BSQCcVpW Arrays false 26
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-23 13:36:20.916
+!MESSAGE Preparing classpath changed notification BinarySearchTree
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-23 13:36:20.921
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-23 13:36:20.941
+!MESSAGE classpath=26 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-23 13:36:20.947
+!MESSAGE buffering callback sts4.classpath.BSQCcVpW BinarySearchTree false 26
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-23 13:36:20.951
+!MESSAGE Preparing classpath changed notification BinaryTree
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-23 13:36:20.955
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-23 13:36:20.960
+!MESSAGE classpath=26 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-23 13:36:20.965
+!MESSAGE buffering callback sts4.classpath.BSQCcVpW BinaryTree false 26
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-23 13:36:20.969
+!MESSAGE Preparing classpath changed notification DynamicProgramming
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-23 13:36:20.973
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-23 13:36:20.978
+!MESSAGE classpath=26 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-23 13:36:20.984
+!MESSAGE buffering callback sts4.classpath.BSQCcVpW DynamicProgramming false 26
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-23 13:36:20.988
+!MESSAGE Preparing classpath changed notification Hashing
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-23 13:36:20.992
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-23 13:36:20.997
+!MESSAGE classpath=26 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-23 13:36:21.002
+!MESSAGE buffering callback sts4.classpath.BSQCcVpW Hashing false 26
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-23 13:36:21.007
+!MESSAGE Preparing classpath changed notification ProblemSolving
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-23 13:36:21.011
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-23 13:36:21.016
+!MESSAGE classpath=26 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-23 13:36:21.022
+!MESSAGE buffering callback sts4.classpath.BSQCcVpW ProblemSolving false 26
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-23 13:36:21.026
+!MESSAGE Preparing classpath changed notification Searching
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-23 13:36:21.030
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-23 13:36:21.035
+!MESSAGE classpath=25 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-23 13:36:21.040
+!MESSAGE buffering callback sts4.classpath.BSQCcVpW Searching false 25
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-23 13:36:21.045
+!MESSAGE Preparing classpath changed notification Sorting
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-23 13:36:21.049
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-23 13:36:21.054
+!MESSAGE classpath=26 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-23 13:36:21.060
+!MESSAGE buffering callback sts4.classpath.BSQCcVpW Sorting false 26
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-23 13:36:21.063
+!MESSAGE executing callback sts4.classpath.BSQCcVpW 9 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-23 13:36:21.940
+!MESSAGE executing callback sts4.classpath.BSQCcVpW SUCCESS [done]
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2020-01-23 13:40:20.993
+!MESSAGE Creating lock file C:\Program Files\Java\jdk1.8.0_191\bin\.gitconfig.lock failed
+!STACK 0
+java.io.IOException: Access is denied
+	at java.io.WinNTFileSystem.createFileExclusively(Native Method)
+	at java.io.File.createNewFile(Unknown Source)
+	at org.eclipse.jgit.util.FS.createNewFileAtomic(FS.java:1593)
+	at org.eclipse.jgit.internal.storage.file.LockFile.lock(LockFile.java:165)
+	at org.eclipse.jgit.storage.file.FileBasedConfig.save(FileBasedConfig.java:252)
+	at org.eclipse.jgit.util.FS$FileStoreAttributes.saveToConfig(FS.java:584)
+	at org.eclipse.jgit.util.FS$FileStoreAttributes.lambda$0(FS.java:364)
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(Unknown Source)
+	at java.util.concurrent.CompletableFuture$AsyncSupply.exec(Unknown Source)
+	at java.util.concurrent.ForkJoinTask.doExec(Unknown Source)
+	at java.util.concurrent.ForkJoinPool$WorkQueue.runTask(Unknown Source)
+	at java.util.concurrent.ForkJoinPool.runWorker(Unknown Source)
+	at java.util.concurrent.ForkJoinWorkerThread.run(Unknown Source)
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2020-01-23 13:40:20.999
+!MESSAGE Cannot save config file 'FileBasedConfig[C:\Program Files\Java\jdk1.8.0_191\bin\.gitconfig]'
+!STACK 0
+java.io.IOException: Access is denied
+	at java.io.WinNTFileSystem.createFileExclusively(Native Method)
+	at java.io.File.createNewFile(Unknown Source)
+	at org.eclipse.jgit.util.FS.createNewFileAtomic(FS.java:1593)
+	at org.eclipse.jgit.internal.storage.file.LockFile.lock(LockFile.java:165)
+	at org.eclipse.jgit.storage.file.FileBasedConfig.save(FileBasedConfig.java:252)
+	at org.eclipse.jgit.util.FS$FileStoreAttributes.saveToConfig(FS.java:584)
+	at org.eclipse.jgit.util.FS$FileStoreAttributes.lambda$0(FS.java:364)
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(Unknown Source)
+	at java.util.concurrent.CompletableFuture$AsyncSupply.exec(Unknown Source)
+	at java.util.concurrent.ForkJoinTask.doExec(Unknown Source)
+	at java.util.concurrent.ForkJoinPool$WorkQueue.runTask(Unknown Source)
+	at java.util.concurrent.ForkJoinPool.runWorker(Unknown Source)
+	at java.util.concurrent.ForkJoinWorkerThread.run(Unknown Source)
+
+!ENTRY org.eclipse.ui 2 2 2020-01-23 13:40:33.709
+!MESSAGE Invalid property category path: org.springframework.ide.eclipse.beans.ui.properties.ProjectPropertyPage (bundle: org.springframework.ide.eclipse.xml.namespaces, propertyPage: org.springframework.ide.eclipse.beans.ui.namespaces.projectPropertyPage)
