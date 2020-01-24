@@ -69,6 +69,7 @@ public class PrimMSTAdjList {
 			int[] parent=new int[graph.V];
 			
 			
+			
 		}
 		
 
