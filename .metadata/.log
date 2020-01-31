@@ -15583,3 +15583,75 @@ org.eclipse.equinox.p2.core.ProvisionException: No repository found at https://d
 
 !ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-31 11:37:59.499
 !MESSAGE executing callback sts4.classpath.GoijkcbW SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-31 14:02:18.339
+!MESSAGE Preparing classpath changed notification Graph
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-31 14:02:18.345
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-31 14:02:18.352
+!MESSAGE classpath=24 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-31 14:02:18.359
+!MESSAGE buffering callback sts4.classpath.GoijkcbW Graph false 24
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-31 14:02:18.364
+!MESSAGE executing callback sts4.classpath.GoijkcbW 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-31 14:02:18.396
+!MESSAGE executing callback sts4.classpath.GoijkcbW SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-31 14:02:18.422
+!MESSAGE Preparing classpath changed notification Graph
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-31 14:02:18.427
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-31 14:02:18.433
+!MESSAGE classpath=26 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-31 14:02:18.438
+!MESSAGE buffering callback sts4.classpath.GoijkcbW Graph false 26
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-31 14:02:18.441
+!MESSAGE executing callback sts4.classpath.GoijkcbW 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-31 14:02:18.448
+!MESSAGE executing callback sts4.classpath.GoijkcbW SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-31 14:29:58.079
+!MESSAGE Preparing classpath changed notification Graph
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-31 14:29:58.227
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-31 14:29:58.366
+!MESSAGE classpath=24 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-31 14:29:58.482
+!MESSAGE buffering callback sts4.classpath.GoijkcbW Graph false 24
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-31 14:29:58.489
+!MESSAGE executing callback sts4.classpath.GoijkcbW 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-31 14:29:58.956
+!MESSAGE executing callback sts4.classpath.GoijkcbW SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-31 14:29:59.115
+!MESSAGE Preparing classpath changed notification Graph
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-31 14:29:59.228
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-31 14:29:59.254
+!MESSAGE classpath=26 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-31 14:29:59.353
+!MESSAGE buffering callback sts4.classpath.GoijkcbW Graph false 26
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-31 14:29:59.365
+!MESSAGE executing callback sts4.classpath.GoijkcbW 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-31 14:29:59.804
+!MESSAGE executing callback sts4.classpath.GoijkcbW SUCCESS [done]

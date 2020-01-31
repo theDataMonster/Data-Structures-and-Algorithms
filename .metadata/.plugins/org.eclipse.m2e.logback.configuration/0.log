@@ -925,3 +925,7 @@ java.io.IOException: Access is denied
 2020-01-31 10:48:07,514 [Worker-23: Launching ChildX] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\pratyushd\DSAlgoWS\BinaryTree\src\main\resources
 2020-01-31 10:48:07,516 [Worker-23: Launching ChildX] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
 2020-01-31 10:48:07,516 [Worker-23: Launching ChildX] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\pratyushd\DSAlgoWS\BinaryTree\src\test\resources
+2020-01-31 12:03:18,723 [Worker-51: Launching DiagonalSum] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-31 12:03:18,724 [Worker-51: Launching DiagonalSum] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\pratyushd\DSAlgoWS\BinaryTree\src\main\resources
+2020-01-31 12:03:18,725 [Worker-51: Launching DiagonalSum] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-31 12:03:18,725 [Worker-51: Launching DiagonalSum] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\pratyushd\DSAlgoWS\BinaryTree\src\test\resources
