@@ -921,3 +921,7 @@ java.io.IOException: Access is denied
 	at java.util.concurrent.ForkJoinPool$WorkQueue.runTask(Unknown Source) ~[na:1.8.0_191]
 	at java.util.concurrent.ForkJoinPool.runWorker(Unknown Source) ~[na:1.8.0_191]
 	at java.util.concurrent.ForkJoinWorkerThread.run(Unknown Source) ~[na:1.8.0_191]
+2020-01-31 10:48:07,513 [Worker-23: Launching ChildX] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-31 10:48:07,514 [Worker-23: Launching ChildX] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\pratyushd\DSAlgoWS\BinaryTree\src\main\resources
+2020-01-31 10:48:07,516 [Worker-23: Launching ChildX] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-31 10:48:07,516 [Worker-23: Launching ChildX] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\pratyushd\DSAlgoWS\BinaryTree\src\test\resources
