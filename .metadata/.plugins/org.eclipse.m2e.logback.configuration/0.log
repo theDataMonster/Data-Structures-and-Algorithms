@@ -929,3 +929,92 @@ java.io.IOException: Access is denied
 2020-01-31 12:03:18,724 [Worker-51: Launching DiagonalSum] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\pratyushd\DSAlgoWS\BinaryTree\src\main\resources
 2020-01-31 12:03:18,725 [Worker-51: Launching DiagonalSum] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
 2020-01-31 12:03:18,725 [Worker-51: Launching DiagonalSum] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\pratyushd\DSAlgoWS\BinaryTree\src\test\resources
+2020-01-31 14:40:02,373 [Worker-99: Launching RootSum] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-31 14:40:02,373 [Worker-99: Launching RootSum] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\pratyushd\DSAlgoWS\BinaryTree\src\main\resources
+2020-01-31 14:40:02,374 [Worker-99: Launching RootSum] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-31 14:40:02,374 [Worker-99: Launching RootSum] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\pratyushd\DSAlgoWS\BinaryTree\src\test\resources
+2020-02-03 11:23:16,199 [Worker-25: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2020-02-03 11:23:19,512 [ForkJoinPool.commonPool-worker-5] ERROR o.e.j.i.storage.file.LockFile - Creating lock file C:\Program Files\Java\jdk1.8.0_191\bin\.gitconfig.lock failed
+java.io.IOException: Access is denied
+	at java.io.WinNTFileSystem.createFileExclusively(Native Method) ~[na:1.8.0_191]
+	at java.io.File.createNewFile(Unknown Source) ~[na:1.8.0_191]
+	at org.eclipse.jgit.util.FS.createNewFileAtomic(FS.java:1593) ~[org.eclipse.jgit_5.5.1.201910021850-r.jar:5.5.1.201910021850-r]
+	at org.eclipse.jgit.internal.storage.file.LockFile.lock(LockFile.java:165) ~[org.eclipse.jgit_5.5.1.201910021850-r.jar:5.5.1.201910021850-r]
+	at org.eclipse.jgit.storage.file.FileBasedConfig.save(FileBasedConfig.java:252) [org.eclipse.jgit_5.5.1.201910021850-r.jar:5.5.1.201910021850-r]
+	at org.eclipse.jgit.util.FS$FileStoreAttributes.saveToConfig(FS.java:584) [org.eclipse.jgit_5.5.1.201910021850-r.jar:5.5.1.201910021850-r]
+	at org.eclipse.jgit.util.FS$FileStoreAttributes.lambda$0(FS.java:364) [org.eclipse.jgit_5.5.1.201910021850-r.jar:5.5.1.201910021850-r]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(Unknown Source) ~[na:1.8.0_191]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.exec(Unknown Source) ~[na:1.8.0_191]
+	at java.util.concurrent.ForkJoinTask.doExec(Unknown Source) ~[na:1.8.0_191]
+	at java.util.concurrent.ForkJoinPool$WorkQueue.runTask(Unknown Source) ~[na:1.8.0_191]
+	at java.util.concurrent.ForkJoinPool.runWorker(Unknown Source) ~[na:1.8.0_191]
+	at java.util.concurrent.ForkJoinWorkerThread.run(Unknown Source) ~[na:1.8.0_191]
+2020-02-03 11:23:19,521 [ForkJoinPool.commonPool-worker-5] ERROR org.eclipse.jgit.util.FS - Cannot save config file 'FileBasedConfig[C:\Program Files\Java\jdk1.8.0_191\bin\.gitconfig]'
+java.io.IOException: Access is denied
+	at java.io.WinNTFileSystem.createFileExclusively(Native Method) ~[na:1.8.0_191]
+	at java.io.File.createNewFile(Unknown Source) ~[na:1.8.0_191]
+	at org.eclipse.jgit.util.FS.createNewFileAtomic(FS.java:1593) ~[org.eclipse.jgit_5.5.1.201910021850-r.jar:5.5.1.201910021850-r]
+	at org.eclipse.jgit.internal.storage.file.LockFile.lock(LockFile.java:165) ~[org.eclipse.jgit_5.5.1.201910021850-r.jar:5.5.1.201910021850-r]
+	at org.eclipse.jgit.storage.file.FileBasedConfig.save(FileBasedConfig.java:252) ~[org.eclipse.jgit_5.5.1.201910021850-r.jar:5.5.1.201910021850-r]
+	at org.eclipse.jgit.util.FS$FileStoreAttributes.saveToConfig(FS.java:584) [org.eclipse.jgit_5.5.1.201910021850-r.jar:5.5.1.201910021850-r]
+	at org.eclipse.jgit.util.FS$FileStoreAttributes.lambda$0(FS.java:364) [org.eclipse.jgit_5.5.1.201910021850-r.jar:5.5.1.201910021850-r]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(Unknown Source) ~[na:1.8.0_191]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.exec(Unknown Source) ~[na:1.8.0_191]
+	at java.util.concurrent.ForkJoinTask.doExec(Unknown Source) ~[na:1.8.0_191]
+	at java.util.concurrent.ForkJoinPool$WorkQueue.runTask(Unknown Source) ~[na:1.8.0_191]
+	at java.util.concurrent.ForkJoinPool.runWorker(Unknown Source) ~[na:1.8.0_191]
+	at java.util.concurrent.ForkJoinWorkerThread.run(Unknown Source) ~[na:1.8.0_191]
+2020-02-03 11:24:46,378 [ModalContext] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com:LinkedList.Tests:0.1.0-SNAPSHOT @ C:\Users\pratyushd\DSAlgoWS\LinkedList\pom.xml.
+2020-02-03 11:24:49,307 [ModalContext] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /LinkedList/src/main/java
+2020-02-03 11:24:49,316 [ModalContext] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /LinkedList/src/test/java
+2020-02-06 13:59:09,324 [Worker-809: Launching DuplicatesRemove] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com:LinkedList.Tests:0.1.0-SNAPSHOT @ C:\Users\pratyushd\DSAlgoWS\LinkedList\pom.xml.
+2020-02-06 13:59:10,004 [Worker-809: Launching DuplicatesRemove] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/google/appengine/appengine-api-1.0-sdk/1.9.78/appengine-api-1.0-sdk-1.9.78.pom
+2020-02-06 13:59:10,159 [Worker-809: Launching DuplicatesRemove] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/google/appengine/appengine-api-1.0-sdk/1.9.78/appengine-api-1.0-sdk-1.9.78.pom
+2020-02-06 13:59:10,294 [Worker-809: Launching DuplicatesRemove] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/google/appengine/appengine/1.9.78/appengine-1.9.78.pom
+2020-02-06 13:59:10,428 [Worker-809: Launching DuplicatesRemove] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/google/appengine/appengine/1.9.78/appengine-1.9.78.pom
+2020-02-06 13:59:10,632 [Worker-809: Launching DuplicatesRemove] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/google/appengine/appengine-api-1.0-sdk/1.9.78/appengine-api-1.0-sdk-1.9.78.jar
+2020-02-06 13:59:23,917 [Worker-809: Launching DuplicatesRemove] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/google/appengine/appengine-api-1.0-sdk/1.9.78/appengine-api-1.0-sdk-1.9.78.jar
+2020-02-06 13:59:27,288 [Worker-809: Launching DuplicatesRemove] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-02-06 13:59:27,288 [Worker-809: Launching DuplicatesRemove] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\pratyushd\DSAlgoWS\LinkedList\src\main\resources
+2020-02-06 13:59:27,289 [Worker-809: Launching DuplicatesRemove] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-02-06 13:59:27,289 [Worker-809: Launching DuplicatesRemove] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\pratyushd\DSAlgoWS\LinkedList\src\test\resources
+2020-02-06 13:59:28,260 [Worker-803: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/google/appengine/appengine-api-1.0-sdk/1.9.78/appengine-api-1.0-sdk-1.9.78-sources.jar
+2020-02-06 13:59:28,276 [Worker-803: Download sources and javadoc] ERROR o.e.m.j.internal.DownloadSourcesJob - Could not download sources for com.google.appengine:appengine-api-1.0-sdk:1.9.78
+org.eclipse.core.runtime.CoreException: Could not resolve artifact com.google.appengine:appengine-api-1.0-sdk:jar:sources:1.9.78
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.lambda$4(MavenImpl.java:801) ~[org.eclipse.m2e.core_1.13.0.20190716-1624.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:177) ~[org.eclipse.m2e.core_1.13.0.20190716-1624.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:112) ~[org.eclipse.m2e.core_1.13.0.20190716-1624.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:99) ~[org.eclipse.m2e.core_1.13.0.20190716-1624.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:769) ~[org.eclipse.m2e.core_1.13.0.20190716-1624.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:746) ~[org.eclipse.m2e.core_1.13.0.20190716-1624.jar:na]
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.download(DownloadSourcesJob.java:328) [org.eclipse.m2e.jdt_1.13.0.20190716-1624.jar:na]
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadAttachments(DownloadSourcesJob.java:302) [org.eclipse.m2e.jdt_1.13.0.20190716-1624.jar:na]
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadMaven(DownloadSourcesJob.java:267) [org.eclipse.m2e.jdt_1.13.0.20190716-1624.jar:na]
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadFilesAndPopulateToUpdate(DownloadSourcesJob.java:231) [org.eclipse.m2e.jdt_1.13.0.20190716-1624.jar:na]
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.lambda$0(DownloadSourcesJob.java:159) [org.eclipse.m2e.jdt_1.13.0.20190716-1624.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:177) ~[org.eclipse.m2e.core_1.13.0.20190716-1624.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:151) ~[org.eclipse.m2e.core_1.13.0.20190716-1624.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:99) ~[org.eclipse.m2e.core_1.13.0.20190716-1624.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:1374) ~[org.eclipse.m2e.core_1.13.0.20190716-1624.jar:na]
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.run(DownloadSourcesJob.java:159) [org.eclipse.m2e.jdt_1.13.0.20190716-1624.jar:na]
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63) ~[org.eclipse.core.jobs_3.10.500.v20190620-1426.jar:na]
+2020-02-06 13:59:28,950 [Worker-803: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/google/appengine/appengine-api-1.0-sdk/1.9.78/appengine-api-1.0-sdk-1.9.78-javadoc.jar
+2020-02-06 13:59:28,970 [Worker-803: Download sources and javadoc] ERROR o.e.m.j.internal.DownloadSourcesJob - Could not download javadoc for com.google.appengine:appengine-api-1.0-sdk:1.9.78
+org.eclipse.core.runtime.CoreException: Could not resolve artifact com.google.appengine:appengine-api-1.0-sdk:jar:javadoc:1.9.78
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.lambda$4(MavenImpl.java:801) ~[org.eclipse.m2e.core_1.13.0.20190716-1624.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:177) ~[org.eclipse.m2e.core_1.13.0.20190716-1624.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:112) ~[org.eclipse.m2e.core_1.13.0.20190716-1624.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:99) ~[org.eclipse.m2e.core_1.13.0.20190716-1624.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:769) ~[org.eclipse.m2e.core_1.13.0.20190716-1624.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:746) ~[org.eclipse.m2e.core_1.13.0.20190716-1624.jar:na]
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.download(DownloadSourcesJob.java:328) [org.eclipse.m2e.jdt_1.13.0.20190716-1624.jar:na]
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadAttachments(DownloadSourcesJob.java:314) [org.eclipse.m2e.jdt_1.13.0.20190716-1624.jar:na]
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadMaven(DownloadSourcesJob.java:267) [org.eclipse.m2e.jdt_1.13.0.20190716-1624.jar:na]
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadFilesAndPopulateToUpdate(DownloadSourcesJob.java:231) [org.eclipse.m2e.jdt_1.13.0.20190716-1624.jar:na]
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.lambda$0(DownloadSourcesJob.java:159) [org.eclipse.m2e.jdt_1.13.0.20190716-1624.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:177) ~[org.eclipse.m2e.core_1.13.0.20190716-1624.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:151) ~[org.eclipse.m2e.core_1.13.0.20190716-1624.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:99) ~[org.eclipse.m2e.core_1.13.0.20190716-1624.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:1374) ~[org.eclipse.m2e.core_1.13.0.20190716-1624.jar:na]
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.run(DownloadSourcesJob.java:159) [org.eclipse.m2e.jdt_1.13.0.20190716-1624.jar:na]
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63) ~[org.eclipse.core.jobs_3.10.500.v20190620-1426.jar:na]
