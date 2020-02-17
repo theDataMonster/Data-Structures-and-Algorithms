@@ -1274,3 +1274,58 @@ java.io.IOException: Access is denied
 	at java.util.concurrent.ForkJoinPool$WorkQueue.runTask(Unknown Source) ~[na:1.8.0_191]
 	at java.util.concurrent.ForkJoinPool.runWorker(Unknown Source) ~[na:1.8.0_191]
 	at java.util.concurrent.ForkJoinWorkerThread.run(Unknown Source) ~[na:1.8.0_191]
+2020-02-14 16:59:52,520 [Worker-24: Launching Inorder2] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-02-14 16:59:52,541 [Worker-24: Launching Inorder2] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\pratyushd\DSAlgoWS\BinaryTree\src\main\resources
+2020-02-14 16:59:52,543 [Worker-24: Launching Inorder2] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-02-14 16:59:52,543 [Worker-24: Launching Inorder2] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\pratyushd\DSAlgoWS\BinaryTree\src\test\resources
+2020-02-14 17:02:41,516 [Worker-34: Launching Inorder2] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-02-14 17:02:41,516 [Worker-34: Launching Inorder2] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\pratyushd\DSAlgoWS\BinaryTree\src\main\resources
+2020-02-14 17:02:41,518 [Worker-34: Launching Inorder2] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-02-14 17:02:41,518 [Worker-34: Launching Inorder2] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\pratyushd\DSAlgoWS\BinaryTree\src\test\resources
+2020-02-17 10:25:22,982 [Worker-0: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2020-02-17 10:25:32,203 [ForkJoinPool.commonPool-worker-1] ERROR o.e.j.i.storage.file.LockFile - Creating lock file C:\Program Files\Java\jdk1.8.0_191\bin\.gitconfig.lock failed
+java.io.IOException: Access is denied
+	at java.io.WinNTFileSystem.createFileExclusively(Native Method) ~[na:1.8.0_191]
+	at java.io.File.createNewFile(Unknown Source) ~[na:1.8.0_191]
+	at org.eclipse.jgit.util.FS.createNewFileAtomic(FS.java:1593) ~[org.eclipse.jgit_5.5.1.201910021850-r.jar:5.5.1.201910021850-r]
+	at org.eclipse.jgit.internal.storage.file.LockFile.lock(LockFile.java:165) ~[org.eclipse.jgit_5.5.1.201910021850-r.jar:5.5.1.201910021850-r]
+	at org.eclipse.jgit.storage.file.FileBasedConfig.save(FileBasedConfig.java:252) [org.eclipse.jgit_5.5.1.201910021850-r.jar:5.5.1.201910021850-r]
+	at org.eclipse.jgit.util.FS$FileStoreAttributes.saveToConfig(FS.java:584) [org.eclipse.jgit_5.5.1.201910021850-r.jar:5.5.1.201910021850-r]
+	at org.eclipse.jgit.util.FS$FileStoreAttributes.lambda$0(FS.java:364) [org.eclipse.jgit_5.5.1.201910021850-r.jar:5.5.1.201910021850-r]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(Unknown Source) ~[na:1.8.0_191]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.exec(Unknown Source) ~[na:1.8.0_191]
+	at java.util.concurrent.ForkJoinTask.doExec(Unknown Source) ~[na:1.8.0_191]
+	at java.util.concurrent.ForkJoinPool$WorkQueue.runTask(Unknown Source) ~[na:1.8.0_191]
+	at java.util.concurrent.ForkJoinPool.runWorker(Unknown Source) ~[na:1.8.0_191]
+	at java.util.concurrent.ForkJoinWorkerThread.run(Unknown Source) ~[na:1.8.0_191]
+2020-02-17 10:25:32,219 [ForkJoinPool.commonPool-worker-1] ERROR org.eclipse.jgit.util.FS - Cannot save config file 'FileBasedConfig[C:\Program Files\Java\jdk1.8.0_191\bin\.gitconfig]'
+java.io.IOException: Access is denied
+	at java.io.WinNTFileSystem.createFileExclusively(Native Method) ~[na:1.8.0_191]
+	at java.io.File.createNewFile(Unknown Source) ~[na:1.8.0_191]
+	at org.eclipse.jgit.util.FS.createNewFileAtomic(FS.java:1593) ~[org.eclipse.jgit_5.5.1.201910021850-r.jar:5.5.1.201910021850-r]
+	at org.eclipse.jgit.internal.storage.file.LockFile.lock(LockFile.java:165) ~[org.eclipse.jgit_5.5.1.201910021850-r.jar:5.5.1.201910021850-r]
+	at org.eclipse.jgit.storage.file.FileBasedConfig.save(FileBasedConfig.java:252) ~[org.eclipse.jgit_5.5.1.201910021850-r.jar:5.5.1.201910021850-r]
+	at org.eclipse.jgit.util.FS$FileStoreAttributes.saveToConfig(FS.java:584) [org.eclipse.jgit_5.5.1.201910021850-r.jar:5.5.1.201910021850-r]
+	at org.eclipse.jgit.util.FS$FileStoreAttributes.lambda$0(FS.java:364) [org.eclipse.jgit_5.5.1.201910021850-r.jar:5.5.1.201910021850-r]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(Unknown Source) ~[na:1.8.0_191]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.exec(Unknown Source) ~[na:1.8.0_191]
+	at java.util.concurrent.ForkJoinTask.doExec(Unknown Source) ~[na:1.8.0_191]
+	at java.util.concurrent.ForkJoinPool$WorkQueue.runTask(Unknown Source) ~[na:1.8.0_191]
+	at java.util.concurrent.ForkJoinPool.runWorker(Unknown Source) ~[na:1.8.0_191]
+	at java.util.concurrent.ForkJoinWorkerThread.run(Unknown Source) ~[na:1.8.0_191]
+2020-02-17 14:16:19,092 [Worker-88: Launching PrePost] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-02-17 14:16:19,093 [Worker-88: Launching PrePost] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\pratyushd\DSAlgoWS\BinaryTree\src\main\resources
+2020-02-17 14:16:19,095 [Worker-88: Launching PrePost] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-02-17 14:16:19,095 [Worker-88: Launching PrePost] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\pratyushd\DSAlgoWS\BinaryTree\src\test\resources
+2020-02-17 14:17:37,289 [Worker-91: Launching PrePost] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-02-17 14:17:37,290 [Worker-91: Launching PrePost] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\pratyushd\DSAlgoWS\BinaryTree\src\main\resources
+2020-02-17 14:17:37,290 [Worker-91: Launching PrePost] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-02-17 14:17:37,291 [Worker-91: Launching PrePost] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\pratyushd\DSAlgoWS\BinaryTree\src\test\resources
+2020-02-17 14:20:16,345 [Worker-91: Launching PrePost] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-02-17 14:20:16,346 [Worker-91: Launching PrePost] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\pratyushd\DSAlgoWS\BinaryTree\src\main\resources
+2020-02-17 14:20:16,346 [Worker-91: Launching PrePost] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-02-17 14:20:16,346 [Worker-91: Launching PrePost] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\pratyushd\DSAlgoWS\BinaryTree\src\test\resources
+2020-02-17 14:20:27,513 [Worker-94: Launching PrePost] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-02-17 14:20:27,513 [Worker-94: Launching PrePost] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\pratyushd\DSAlgoWS\BinaryTree\src\main\resources
+2020-02-17 14:20:27,513 [Worker-94: Launching PrePost] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-02-17 14:20:27,513 [Worker-94: Launching PrePost] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\pratyushd\DSAlgoWS\BinaryTree\src\test\resources
